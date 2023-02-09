@@ -1,0 +1,95 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+nav{
+    font-size: 2rem;
+    font-family: 'Bebas Neue', cursive;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #778da9;
+    color: white;
+    height: 72px;
+}
+
+.logo{
+    padding: 0 13px;
+}
+
+.logo img{
+    width: 32px;
+}
+
+#main {
+    width: 100%;
+    min-height: 100vh;
+    padding-bottom: 50px;
+    background-color: #e0e1dd;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#addBtn {
+    position: fixed;
+    right: 20px;
+    top: 18px;
+    background-color: #1b263b;
+    color: white;   
+    padding: 10px;
+    border: 0;
+    outline: 0;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+
+
+.note {
+    width: 550px;
+    height: 300px;
+    background-color: rgb(255, 255, 255);
+    margin-left: 70px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border: black solid;
+}
+
+
+
+.tool {
+    width: 100%;
+    background-color: #1b263b;
+    color: white;
+    padding: 5px;
+    display: flex;
+    justify-content: end;
+}
+
+
+
+.tool i {
+    padding: 5px;
+    cursor: pointer;
+}
+
+
+.note textarea {
+    /* border: black solid; */
+    width: 100%;
+    height: 88%;
+    resize: none;
+    padding: 10px;
+    font-size: 18px;
+}
+
+
+
+.note textarea:focus {
+    border: 0;
+    outline: 0;
+}
+
